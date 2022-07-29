@@ -1,3 +1,5 @@
+
+
 import React,{useState} from 'react'
 import Post from './Post'
 
@@ -39,4 +41,5 @@ const filteredPosts = posts.filter(post=>{
     </div>
   )
 }
+
 export default PostContainer;
