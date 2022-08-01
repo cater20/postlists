@@ -79,6 +79,42 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify]
 (https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+## setup and installation
+1:clone this repository into your personal computer.
+https://github.com/cater20/postlists
+
+2:open the repository containing the files cloned in the terminal in your personal computers
+
+3:cd into the repo from the terminal to vscode editor
+
+4: While in your code editor, open the terminal and run the command:
+
+json-server — watch db.json — routes routes.json
+
+This will start the local server from the JSON file.
+
+5:open a second terminal and run npm install to download the required dependencies.
+
+6: Finally run npm start to open this project with a live server in a browser.
+
+## Technologys used
+This website is mainly built on React js, CSS, and HTML page formats.
+
+This application runs with the use of the local server and is developed by the creation of a database JSON file, that is the db.json and it contains all the data contents and properties to be rendered on the DOM.
+
+The data from the JSON file is then fetched using the fetch keyword in React body component and converted to useable data before being rendered to the DOM.
+
+While fetching the data we use a collection of crud properties that is the GET request is performed on the local API, POST, and PATCH, these are responsible to get data from our JSON file is successfully rendered in the DOM.
+
+This is a procedural approach to getting data from the backend server to the frontend user design side,...
+
+
+
+
+
+
+
+
 ## Licence by MIT 
 Copyright (c) 2022 cater
 
