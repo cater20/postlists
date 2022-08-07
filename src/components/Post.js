@@ -13,6 +13,7 @@ function Posts({title,content,author,deleteApost,id,isFun,changeDisplayedPosts})
     .catch(error=>console.log(error))
     
   }
+  
   function changeFun(){
     fetch(`http://localhost:8004/posts/${id}`,{
       method:'PATCH',
